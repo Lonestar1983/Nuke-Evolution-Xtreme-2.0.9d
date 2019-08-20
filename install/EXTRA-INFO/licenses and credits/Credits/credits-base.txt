@@ -1,0 +1,105 @@
+PHP-Nuke
+Version:                7.6
+Author:                 Francisco Burzi
+Website:                phpnuke.org
+GPL:                    Yes
+Notes:                  None
+---------------------------------------------------------------
+PHP-Nuke Patched 
+Version:                3.0b & 3.1
+Author:                 chatserv, Quake, & Evaders99
+Website:                nukefixes.com
+GPL:                    Yes
+Notes:                  http://www.nukefixes.com/forum-44.html
+---------------------------------------------------------------
+phpBB (BBtoNuke)
+Version:                2.0.21
+Author:                 AcydBurn
+Website:                phpbb.com
+GPL:                    Yes
+Notes:                  None
+---------------------------------------------------------------
+NukeSentinel
+Version:                2.5.03
+Author:                 NukeScripts Network
+Website:                nukescripts.net
+GPL:                    No (See included Nuke Sentinel license file)
+Notes:                  Slightly adjusted by Quake
+---------------------------------------------------------------
+Quake Base Functions
+Version:                4.0.0
+Author:                 Quake
+Website:                www.nuke-evolution.com
+GPL:                    Yes
+Notes:                  v1: http://www.nukefixes.com/ftopicp-5550.html, more at nuke-evolution.com
+---------------------------------------------------------------
+Language Selector
+Version:                3.0.0
+Author:                 Quake
+Website:                www.nuke-evolution.com
+GPL:                    Yes
+Notes:                  Automatically tracks the user's preferred language and selects it. Borrowed from DragonFly CMS
+---------------------------------------------------------------
+PHP Input Filter
+Version:                1.2.2
+Author:                 Daniel Morris
+Website:                www.cyberai.com/inputfilter
+GPL:                    Yes
+Notes:                  Filters out bad HTML tags
+---------------------------------------------------------------
+HTML Parser
+Version:                1.2.0
+Author:                 jhsolorz
+Website:                php-html.sourceforge.net
+GPL:                    Yes
+Notes:                  Parses HTML
+---------------------------------------------------------------
+Caching System
+Version:                2.0.0
+Author:                 JeFFb68CAM
+Website:                http://www.Evo-Mods.com
+GPL:                    Yes
+Notes:                  Caches fetched database arrays to reduce queries. Comes with two options, file cache or SQL cache.
+---------------------------------------------------------------
+Module Simplifications
+Version:                1.0.0
+Author:                 JeFFb68CAM, Quake
+Website:                http://Evo-Mods.com
+GPL:                    Yes
+Notes:                  Adds a few new functions that can make handling modules a whole lot easier
+---------------------------------------------------------------
+Auto Optimize
+Version:                1.0.0
+Author:                 JeFFb68CAM
+Website:                http://Evo-Mods.com
+GPL:                    Yes
+Notes:                  Automatically optimizes the database every day
+---------------------------------------------------------------
+Evolution Functions
+Version:                1.5.0
+Author:                 JeFFb68CAM
+Website:                http://Evo-Mods.com
+GPL:                    Yes
+Notes:                  Functions made to optimize performance (Saved AT LEAST 60 queries)
+---------------------------------------------------------------
+Theme Management
+Version:                1.0.2
+Author:                 JeFFb68CAM
+Website:                http://Evo-Mods.com
+GPL:                    Yes
+Notes:                  Nuke's first ever completely manageable theme system. Allows admin to activate, install, deactivate, and set permissions for themes.
+---------------------------------------------------------------
+Advanced Security Extension
+Version:                1.0.0
+Author:                 Quake
+Website:                http://www.nuke-evolution.com
+GPL:                    Yes
+Notes:                  Adds more security to Nuke-Evolution. It tracks down Search Bots, It has a better IP Tracker and it check's SELECT queries for UNION attacks. If there is an UNION attack, then it will rewrite UNION to UNI0N (a zero).
+---------------------------------------------------------------
+PhpCaptcha
+Version:                1.0.0
+Author:                 Edward Eliot
+Website:                http://www.ejeliot.com/pages/2
+GPL:                    No (BSD License)
+Notes:                  An improved Captcha
+---------------------------------------------------------------

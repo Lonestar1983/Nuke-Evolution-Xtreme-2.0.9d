@@ -1,0 +1,3 @@
+Avatars For Gallery Installation:
+
+Simply upload the content within the html folder to your root directory

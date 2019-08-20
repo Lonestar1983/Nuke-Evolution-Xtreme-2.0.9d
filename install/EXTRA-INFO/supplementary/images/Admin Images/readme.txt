@@ -1,0 +1,1 @@
+You can use these images to replace the standard nuke admin images. So that your admin panel icons all look like the same style ;)

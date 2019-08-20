@@ -1,0 +1,1683 @@
+Folders to delete - 1
+
+themes/YOUR_THEME/forums/dl_mod
+
+
+Files to delete:
+
+themes/YOUR_THEME/forums/book_body.tpl
+themes/YOUR_THEME/forums/cash_donate.tpl
+themes/YOUR_THEME/forums/cash_exchange.tpl
+themes/YOUR_THEME/forums/cash_modedit.tpl
+themes/YOUR_THEME/forums/cash_viewprofile.tpl
+themes/YOUR_THEME/forums/cash_viewtopic.tpl
+
+
+--------------------------------------------------------
+
+
+Files to edit - 16
+
+themes/YOUR_THEME/forums/bbcode.tpl
+themes/YOUR_THEME/forums/forums.cfg
+themes/YOUR_THEME/forums/groupcp_info_body.tpl
+themes/YOUR_THEME/forums/groupcp_pending_info.tpl
+themes/YOUR_THEME/forums/index_body.tpl
+themes/YOUR_THEME/forums/memberlist_body.tpl
+themes/YOUR_THEME/forums/overall_header.tpl
+themes/YOUR_THEME/forums/posting_body.tpl
+themes/YOUR_THEME/forums/privmsgs_body.tpl
+themes/YOUR_THEME/forums/profile_add_body.tpl
+themes/YOUR_THEME/forums/profile_view_body.tpl
+themes/YOUR_THEME/forums/viewforum_body.tpl
+themes/YOUR_THEME/forums/viewtopic_attach_body.tpl
+themes/YOUR_THEME/forums/viewtopic_body.tpl
+themes/YOUR_THEME/forums/viewtopic_quickreply.tpl
+themes/YOUR_THEME/style/style.css
+
+
+Files included - 1 
+
+themes/YOUR_THEME/forums/viewtopic_related_body.tpl
+
+Difficulty - Advanced
+Time to complete - 90 minutes
+
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/bbcode.tpl
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+          <td><span class="genmed"><b>Protected Message:</b></span></td>
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+          <td><span class="genmed"><b>Protected Message: - Thank you for replying...</b></span></td>
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+<!-- BEGIN img --><a onclick="return hs.expand(this)" href="{URL}"><img resizemod="on" onload="rmw_img_loaded(this)" src="{URL}" border="0" alt="" /></a><!-- END img -->
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+<!-- BEGIN img --><img resizemod="on" onload="rmw_img_loaded(this)" src="{URL}" border="0" alt="" /><!-- END img -->
+
+<!-- BEGIN lytebox --><a href="{URL}" rel="lytebox"><img style="border:2px dotted;" src="{URL}" width="{WIDTH}" height="{HEIGHT}" border="0" alt="" /></a><!-- END lytebox -->
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/forums.cfg
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+$images['icon_msnm'] = "$current_template_images/{LANG}/icon_msnm.gif";
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+
+$images['icon_facebook'] = "$current_template_images/{LANG}/icon_facebook.gif";
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+/*****[BEGIN]******************************************
+ [ Mod:    Simple Subforums                    v1.0.1 ]
+ ******************************************************/
+$images['forums'] = "$current_template_images/folders_big.gif";
+$images['forums_new'] = "$current_template_images/folders_new_big.gif";
+/*****[END]********************************************
+ [ Mod:    Simple Subforums                    v1.0.1 ]
+ ******************************************************/
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+/*****[BEGIN]******************************************
+ [ Mod:    Simple Subforums                    v1.0.1 ]
+ ******************************************************/
+$images['forums'] = "$current_template_images/folders_big.gif";
+$images['icon_miniforum'] = "$current_template_images/icon_miniforum.gif";
+$images['icon_miniforum_new'] = "$current_template_images/icon_miniforum_new.gif";
+/*****[END]********************************************
+ [ Mod:    Simple Subforums                    v1.0.1 ]
+ ******************************************************/
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+/*****[BEGIN]******************************************
+ [ Mod:     Super Quick Reply                  v1.3.0 ]
+ ******************************************************/
+$images['quickreply'] = "$current_template_images/{LANG}/quickreply.gif";
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+/*****[BEGIN]******************************************
+ [ Mod:    Thank You Mod                       v1.1.8 ]
+ ******************************************************/
+$images['thanks'] = "$current_template_images/{LANG}/thanks.gif";
+/*****[END]********************************************
+ [ Mod:    Thank You Mod                       v1.1.8 ]
+ ******************************************************/
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+/*****[BEGIN]******************************************
+ [ Mod:     Report Posts                       v1.2.3 ]
+ ******************************************************/
+$images['icon_report'] = "$current_template_images/icon_report.gif";
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+/*****[BEGIN]******************************************
+ [ Mod:     PM Switchbox Repair          v1.0.0 ]
+ ******************************************************/
+$images['voting_lcap'] = "$current_template_images/vote_lcap.gif";
+$images['voting_rcap'] = "$current_template_images/vote_rcap.gif";
+/*****[END]********************************************
+ [ Mod:     PM Switchbox Repair           v1.0.0 ]
+ ******************************************************/
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+ // Download MOD 5
+$current_tpl_dl_mod_images = $current_template_path . "/dl_mod/images";
+$images['Dl_blue'] = "$current_tpl_dl_mod_images/dl_blue.png";
+$images['Dl_grey'] = "$current_tpl_dl_mod_images/dl_grey.png";
+$images['Dl_red'] = "$current_tpl_dl_mod_images/dl_red.png";
+$images['Dl_green'] = "$current_tpl_dl_mod_images/dl_green.png";
+$images['Dl_white'] = "$current_tpl_dl_mod_images/dl_white.png";
+$images['Dl_yellow'] = "$current_tpl_dl_mod_images/dl_yellow.png";
+$images['Dl_new'] = "$current_tpl_dl_mod_images/dl_new.png";
+$images['Dl_edit'] = "$current_tpl_dl_mod_images/dl_edit.png";
+$images['Dl_rate_no'] = "$current_tpl_dl_mod_images/dl_rate_no.png";
+$images['Dl_rate_yes'] = "$current_tpl_dl_mod_images/dl_rate_yes.png";
+$images['Dl_download'] = "$current_tpl_dl_mod_images/icon_dl_download.gif";
+$images['Dl_homepage'] = "$current_tpl_dl_mod_images/icon_dl_homepage.gif";
+$images['Dl_upload'] = "$current_tpl_dl_mod_images/{LANG}/icon_dl_upload.gif";
+$images['Dl_mini_h'] = "$current_tpl_dl_mod_images/icon_mini_h.gif";
+$images['Dl_acp_config'] = "$current_tpl_dl_mod_images/dl_config.png";
+$images['Dl_acp_traffic'] = "$current_tpl_dl_mod_images/dl_traffic.png";
+$images['Dl_acp_categories'] = "$current_tpl_dl_mod_images/dl_categories.png";
+$images['Dl_acp_files'] = "$current_tpl_dl_mod_images/dl_files.png";
+$images['Dl_acp_stats'] = "$current_tpl_dl_mod_images/dl_stats.png";
+$images['Dl_acp_toolbox'] = "$current_tpl_dl_mod_images/dl_toolbox.png";
+$images['Dl_acp_ext_blacklist'] = "$current_tpl_dl_mod_images/dl_ext_blacklist.png";
+$images['Dl_acp_banlist'] = "$current_tpl_dl_mod_images/dl_banlist.png";
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/groupcp_info_body.tpl
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+      <td class="row1" align="center" valign="middle"><span class="gen">{MOD_FROM}</span></td>
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+      <td class="row1" align="center" valign="middle">
+        <table border="0">
+          <tr>
+            <td align="center" width="90%"><span class="gen">{MOD_FROM}</span></td>
+            <td align="right">{MOD_FLAG}</td>
+          </tr>
+        </table>
+      </td>
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/groupcp_pending_info.tpl
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+      <td class="{pending_members_row.ROW_CLASS}" align="center"><span class="gen">{pending_members_row.FROM}</span></td>
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+      <td class="{pending_members_row.ROW_CLASS}" align="center" valign="middle">
+        <table border="0">
+          <tr>
+            <td align="center" width="90%"><span class="gen">{pending_members_row.FROM}</span></td>
+            <td align="right">{pending_members_row.FLAG}</td>
+          </tr>
+        </table>
+      </td>
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/index_body.tpl
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+<table width="99%" align="center" cellpadding="2" cellspacing="1" class="forumline">
+  <tr> 
+  </tr>
+  <tr> 
+	<td class="row1" align="center" valign="middle" rowspan="2"><img src="modules/Forums/images/welcome_panel.png" alt="" /></td>
+	<td class="row1" width="100%"><span class="genmed">{WELCOME_USER}</span><br /><span class="gensmall">{WELCOME_USER_INFO}</span></td>
+  </tr>
+  <!-- BEGIN switch_user_logged_in -->
+  <tr> 
+	<td class="row1" width="100%"><span class="gensmall">{LAST_VISIT_DATE}<br />{WELCOME_NEWS}</span></td>
+  </tr>
+  <!-- END switch_user_logged_in -->
+  <!-- BEGIN switch_user_logged_out -->
+  <form method="post" action="{S_LOGIN_ACTION}">
+  <tr> 
+      <td class="row1" valign="middle" height="28">
+<input type="hidden" name="op" value="login">
+  <table width="100%" cellpadding="3" cellspacing="1" border="0" class="forumline">
+    <tr> 
+      <td class="catHead" height="28"><a name="login"></a><span class="cattitle">{L_LOGIN_LOGOUT}</span></td>
+    </tr>
+    <tr> 
+      <td class="row1" align="center" valign="middle" height="28"><span class="gensmall">{L_USERNAME}: 
+        <input class="post" type="text" name="username" size="10" />
+        &nbsp;&nbsp;&nbsp;{L_PASSWORD}: 
+        <input class="post" type="password" name="user_password" size="10" />
+        &nbsp;&nbsp; &nbsp;&nbsp;{GFX}
+        &nbsp;&nbsp;&nbsp; 
+        <input type="submit" class="mainoption" name="login" value="{L_LOGIN}" />
+        </span> </td>
+    </tr>
+  </table>
+</td>
+  </tr>
+  </form>
+  <!-- END switch_user_logged_out -->
+  <!-- BEGIN switch_suggest_topic -->
+  <tr> 
+	<td class="row1" width="100%" colspan="2"><span class="gensmall">{WELCOME_SUGGESTED_TOPICS}&nbsp;&nbsp;<a href="{WELCOME_SUGGESTED_LINK}" class"gensmall"><strong>{WELCOME_SUGGESTED_TITLE}</strong></a></span></td>
+  </tr>
+  <!-- END switch_suggest_topic -->
+</table>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+onclick="window.location.href='{catrow.forumrow.U_VIEWFORUM}'"><span
+
+#
+#-----[ INLINE, AFTER ADD ]------------------------------------------
+#
+
+{catrow.forumrow.FORUM_COLOR}
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+class="forumlink"> <a href="{catrow.forumrow.U_VIEWFORUM}"
+
+#
+#-----[ INLINE, AFTER ADD ]------------------------------------------
+#
+
+{catrow.forumrow.FORUM_COLOR}
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+      </span> <span class="genmed">{catrow.forumrow.FORUM_DESC}
+
+#
+#-----[ INLINE, AFTER ADD ]------------------------------------------
+#
+
+<br />
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+</span><!-- IF catrow.forumrow.MODERATORS -->
+
+#
+#-----[ INLINE, AFTER ADD ]------------------------------------------
+#
+
+<br />
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+<!-- BEGIN sub --><!-- DEFINE $HAS_SUB = 1 --><!-- IF catrow.forumrow.sub.NUM > 0 -->
+
+#
+#-----[ INLINE, AFTER ADD ]------------------------------------------
+#
+
+<br />
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+<span
+
+#
+#-----[ INLINE, AFTER ADD ]------------------------------------------
+#
+
+style="font-weight:bold; padding-left: 20px;"
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+class="genmed">{L_SUBFORUMS}:
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+class="gensmall">{L_SUBFORUMS}:
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+</span><span class="genmed"><br />
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+<!-- IF catrow.forumrow.sub.UNREAD -->class="topic-new"<!-- ENDIF -->
+
+#
+#-----[ INLINE, AFTER ADD ]------------------------------------------
+#
+
+{catrow.forumrow.sub.FORUM_COLOR}
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+	  <!-- IF $HAS_SUB --></span><!-- UNDEFINE $HAS_SUB --><!-- ENDIF -->
+	</td>
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+<!-- BEGIN switch_forum_link_off -->
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+  </tr>
+  <!-- ENDIF -->
+  <!-- END forumrow -->
+  <!-- END catrow -->
+</table>
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+<!-- END switch_forum_link_off -->
+<!-- BEGIN switch_forum_link_on -->
+	<td class="row2" align="center" valign="middle" height="50" colspan="3"><span class="gensmall">{catrow.forumrow.FORUM_LINK_COUNT}</span></td>
+<!-- END switch_forum_link_on -->
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+    <!-- END colors -->
+    <br />{RECORD_USERS}<br />{LOGGED_IN_USER_LIST}</span></td>
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+  </tr>
+
+#
+#-----[ FIND (THIS IS OPTIONAL) ]------------------------------------------
+#
+
+<br clear="all" />
+
+<table cellspacing="3" border="0" align="center" cellpadding="0">
+  <tr> 
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+<!-- BEGIN switch_user_logged_out -->
+<form method="post" action="{S_LOGIN_ACTION}">
+<input type="hidden" name="op" value="login">
+  <table width="100%" cellpadding="3" cellspacing="1" border="0" class="forumline">
+    <tr> 
+      <td class="catHead" height="28"><a name="login"></a><span class="cattitle">{L_LOGIN_LOGOUT}</span></td>
+    </tr>
+    <tr> 
+      <td class="row1" align="center" valign="middle" height="28"><span class="gensmall">{L_USERNAME}: 
+        <input class="post" type="text" name="username" size="10" />
+        &nbsp;&nbsp;&nbsp;{L_PASSWORD}: 
+        <input class="post" type="password" name="user_password" size="10" />
+        &nbsp;&nbsp; &nbsp;&nbsp;{GFX}
+        &nbsp;&nbsp;&nbsp; 
+        <input type="submit" class="mainoption" name="login" value="{L_LOGIN}" />
+        </span> </td>
+    </tr>
+  </table>
+</form>
+<!-- END switch_user_logged_out -->
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/memberlist_body.tpl
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+	  <th class="thTop" nowrap="nowrap">{L_USER_RANK}</th>
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+      <!-- BEGIN cashrow -->
+	  <th class="thTop" nowrap="nowrap">{cashrow.NAME}</th>
+	  <!-- END cashrow -->
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+	<td class="{memberrow.ROW_CLASS}">
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+      <td class="{memberrow.ROW_CLASS}" align="center"><span class="gen"><a href="{memberrow.U_VIEWPROFILE}" class="gen">{memberrow.USERNAME}</a></span></td>
+      <td class="{memberrow.ROW_CLASS}" align="center" valign="middle">&nbsp;{memberrow.EMAIL_IMG}&nbsp;</td>
+      <!-- FLAGHACK-start -->
+      <td class="{memberrow.ROW_CLASS}" align="center" valign="middle">
+        <table class="gen">
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+				<td align="left" valign="middle">{memberrow.AVATAR_IMG}</td>
+				<td class="{memberrow.ROW_CLASS}" align="center" nowrap="nowrap" valign="middle"><span class="gen"><a href="{memberrow.U_VIEWPROFILE}" class="gen">{memberrow.USERNAME}</a></span></td>
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+            <td align="center" width="100%">{memberrow.FROM}</td>
+            <td align="right">{memberrow.FLAG}</td>
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+	<td class="{memberrow.ROW_CLASS}" align="center" valign="middle"><span class="gensmall">{memberrow.USER_RANK_01}{memberrow.USER_RANK_01_IMG}{memberrow.USER_RANK_02}{memberrow.USER_RANK_02_IMG}{memberrow.USER_RANK_03}{memberrow.USER_RANK_03_IMG}{memberrow.USER_RANK_04}{memberrow.USER_RANK_04_IMG}{memberrow.USER_RANK_05}{memberrow.USER_RANK_05_IMG}</span></td>
+      <td class="{memberrow.ROW_CLASS}" align="center" valign="middle">&nbsp;{memberrow.EMAIL_IMG}&nbsp;</td>
+      <td class="{memberrow.ROW_CLASS}" align="center" valign="middle"><span class="gen"><table class="gen"><tr><td align=center width="100%">{memberrow.FROM}</td><td align=right>{memberrow.FLAG}</td></tr></table></span></td>
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+      <!-- FLAGHACK-end -->
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+      <!-- BEGIN cashrow -->
+	  <td class="{memberrow.ROW_CLASS}" align="center" valign="middle"><span class="gen">{memberrow.cashrow.CASH_DISPLAY}</span></td>
+	  <!-- END cashrow -->
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+      <td class="catBottom" colspan="{NUM_COLUMNS}" height="28">&nbsp;</td>
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+      <td class="catbottom" colspan="10" height="28">&nbsp;</td>
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/overall_header.tpl
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+<!-- BEGIN switch_birthday_popup -->
+<script language="Javascript" type="text/javascript">
+<!--
+	window.open('{U_BIRTHDAYS_POPUP}', '_phpbbbirthday', 'HEIGHT=225,resizable=yes,WIDTH=400');
+//-->
+</script>
+<!-- END switch_birthday_popup -->
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+<!-- BEGIN switch_new_download -->
+<script language="Javascript" type="text/javascript">
+<!--
+	window.open('{switch_new_download.U_NEW_DOWNLOAD_POPUP}', '_blank', 'HEIGHT=225,resizable=yes,WIDTH=400');
+//-->
+</script>
+<!-- END switch_new_download -->
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+<!-- BEGIN switch_new_download_message -->
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+	<td class="row1" align="center"><span class="gen">{switch_new_download_message.NEW_DOWNLOAD_MESSAGE}</span></td>
+</tr>
+</table>
+<!-- END switch_new_download_message -->
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+						<!-- BEGIN switch_hacklist_on -->
+						<a href="{U_HACKLIST}" class="fheader">{IMG_HACKLIST}{L_HACKLIST}</a>&nbsp;
+						<!-- END switch_hacklist_on -->
+						<a href="{U_DOWNLOADS}" class="fheader"><img src="modules/Forums/images/dl_mod/icon_mini_d.gif" width="13" height="13" border="0" alt="{L_DOWNLOADS}" hspace="3" />{L_DOWNLOADS}</a>&nbsp;
+						<!-- BEGIN bug_tracker_head -->
+						<a href="{bug_tracker_head.U_BUG_TRACKER}" class="fheader"><img src="modules/Forums/images/dl_mod/icon_mini_b.gif" width="13" height="13" border="0" alt="{bug_tracker_head.L_BUG_TRACKER}" hspace="3" />{bug_tracker_head.L_BUG_TRACKER}</a>&nbsp;
+						<!-- END bug_tracker_head -->
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+<!-- BEGIN switch_user_logged_in -->
+            &nbsp;&nbsp;<a href="{U_BOOK}" class="fheader"><img src="modules/Forums/templates/subSilver/images/icon_mini_groups.gif" width="12" height="13" border="0" alt="{L_BOOK}" hspace="3" />{L_BOOK}</a>&nbsp;
+<!-- END switch_user_logged_in -->
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/posting_body.tpl
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+        <input type="text" name="subject" size="45" maxlength="60" style="width:450px" tabindex="2" class="post" value="{SUBJECT}" />
+        </span> </td>
+    </tr>
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+	<!-- BEGIN switch_icon_checkbox -->
+	<tr>
+		<td valign="top" class="row1"><span class="gen"><b>{L_ICON_TITLE}</b></td>
+		<td class="row2">
+			<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<!-- BEGIN row -->
+			<tr>
+				<td nowrap="nowrap">
+					<span class="gen">
+						<!-- BEGIN cell -->
+						<input type="radio" name="post_icon" value="{switch_icon_checkbox.row.cell.ICON_ID}"{switch_icon_checkbox.row.cell.ICON_CHECKED}>&nbsp;{switch_icon_checkbox.row.cell.ICON_IMG}&nbsp;&nbsp;
+						<!-- END cell -->
+					</span>
+				</td>
+			</tr>
+			<!-- END row -->
+			</table>
+		</td>
+	</tr>
+	<!-- END switch_icon_checkbox -->
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+                                            <option style="color:black; background-color: {T_TD_COLOR1}" value="black" class="genmed">{L_COLOR_BLACK}</option>
+
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+
+                                            <option style="color:cadetblue; background-color: {T_TD_COLOR1}" value="cadetblue" class="genmed">{L_COLOR_CADET_BLUE}</option> 
+                                            <option style="color:coral; background-color: {T_TD_COLOR1}" value="coral" class="genmed">{L_COLOR_CORAL}</option> 
+                                            <option style="color:crimson; background-color: {T_TD_COLOR1}" value="crimson" class="genmed">{L_COLOR_CRIMSON}</option> 
+                                            <option style="color:tomato; background-color: {T_TD_COLOR1}" value="tomato" class="genmed">{L_COLOR_TOMATO}</option> 
+                                            <option style="color:seagreen; background-color: {T_TD_COLOR1}" value="seagreen" class="genmed">{L_COLOR_SEA_GREEN}</option> 
+                                            <option style="color:darkorchid; background-color: {T_TD_COLOR1}" value="darkorchid" class="genmed">{L_COLOR_DARK_ORCHID}</option> 
+                                            <option style="color:chocolate; background-color: {T_TD_COLOR1}"value="chocolate" class="genmed">{L_COLOR_CHOCOLATE}</option>
+                                            <option style="color:deepskyblue; background-color: {T_TD_COLOR1}" value="deepskyblue" class="genmed">{L_COLOR_DEEPSKYBLUE}</option>
+                                            <option style="color:gold; background-color: {T_TD_COLOR1}" value="gold" class="genmed">{L_COLOR_GOLD}</option>
+                                            <option style="color:gray; background-color: {T_TD_COLOR1}" value="gray" class="genmed">{L_COLOR_GRAY}</option>
+                                            <option style="color:midnightblue; background-color: {T_TD_COLOR1}" value="midnightblue" class="genmed">{L_COLOR_MIDNIGHTBLUE}</option>
+                                            <option style="color:darkgreen; background-color: {T_TD_COLOR1}" value="darkgreen" class="genmed">{L_COLOR_DARKGREEN}</option>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+                            <img border="0" src="modules/Forums/bbcode_box/images/code.gif" name="code" type="image" onClick="BBCcode()" onMouseOver="helpline('code')" class="postimage" alt="Code"><img border="0" src="modules/Forums/bbcode_box/images/php.gif" name="php" type="image" onClick="BBCphp()" onMouseOver="helpline('php')" class="postimage" alt="Php"><img border="0" src="modules/Forums/bbcode_box/images/quote.gif" name="quote" type="image" onClick="BBCquote()" onMouseOver="helpline('quote')" class="postimage" alt="Quote"><img border="0" src="modules/Forums/bbcode_box/images/spoil.gif" class="postimage" name="spoil" type="image" onClick="BBCspoil()" onMouseOver="helpline('spoil')" alt="" /><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/url.gif" name="url" type="image" onClick="BBCurl()" onMouseOver="helpline('url')" class="postimage" alt="URL"><img border="0" src="modules/Forums/bbcode_box/images/email.gif" name="email" type="image" onClick="BBCmail()" onMouseOver="helpline('mail')" class="postimage" alt="Email"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="20" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/img.gif" name="img" type="image" onClick="BBCimg()" onMouseOver="helpline('img')" class="postimage" alt="Image"><img border="0" src="modules/Forums/bbcode_box/images/hide.gif" name="hide" type="image" onClick="BBChide()" onMouseOver="helpline('h')" class="postimage"alt="Image"><img border="0" src="modules/Forums/bbcode_box/images/flash.gif" name="flash" type="image" onClick="BBCflash()" onMouseOver="helpline('flash')" class="postimage" alt="Flash"><img border="0" src="modules/Forums/bbcode_box/images/video.gif" name="video" type="image" onClick="BBCvideo()" onMouseOver="helpline('video')" class="postimage" alt="Video"><img border="0" src="modules/Forums/bbcode_box/images/sound.gif" name="stream" type="image" onClick="BBCstream()" onMouseOver="helpline('stream')" class="postimage" alt="Stream"><img border="0" src="modules/Forums/bbcode_box/images/ram.gif" name="ram" type="image" onClick="BBCram()" onMouseOver="helpline('ram')" class="postimage" alt="Real Media"><img border="0" src="modules/Forums/bbcode_box/images/googlevid.gif" name="GVideo" type="image" onClick="BBCGVideo()" onMouseOver="helpline('googlevid')" class="postimage" alt="GoogleVid"><img border="0" src="modules/Forums/bbcode_box/images/youtube.gif" name="youtube" type="image" onClick="BBCyoutube()" onMouseOver="helpline('youtube')" class="postimage" alt="Youtube"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/list.gif" name="listdf" type="image" onClick="BBClist()" onMouseOver="helpline('list')" class="postimage" alt="List" /><img border="0" src="modules/Forums/bbcode_box/images/hr.gif" name="hr" type="image" onClick="BBChr()" onMouseOver="helpline('hr')" class="postimage" alt="H-Line"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/plain.gif" name="plain" type="image" onClick="BBCplain()" onMouseOver="helpline('plain')" class="postimage" alt="Remove BBcode">
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+                            <img border="0" src="modules/Forums/bbcode_box/images/code.gif" name="code" type="image" onClick="BBCcode()" onMouseOver="helpline('code')" class="postimage" alt="Code"><img border="0" src="modules/Forums/bbcode_box/images/php.gif" name="php" type="image" onClick="BBCphp()" onMouseOver="helpline('php')" class="postimage" alt="Php"><img border="0" src="modules/Forums/bbcode_box/images/quote.gif" name="quote" type="image" onClick="BBCquote()" onMouseOver="helpline('quote')" class="postimage" alt="Quote"><img border="0" src="modules/Forums/bbcode_box/images/spoil.gif" class="postimage" name="spoil" type="image" onClick="BBCspoil()" onMouseOver="helpline('spoil')" alt="" /><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/url.gif" name="url" type="image" onClick="BBCurl()" onMouseOver="helpline('url')" class="postimage" alt="URL"><img border="0" src="modules/Forums/bbcode_box/images/email.gif" name="email" type="image" onClick="BBCmail()" onMouseOver="helpline('mail')" class="postimage" alt="Email"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="20" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/img.gif" name="img" type="image" onClick="BBCimg()" onMouseOver="helpline('img')" class="postimage" alt="Image"><img border="0" src="modules/Forums/bbcode_box/images/lytebox.gif" name="img" type="image" onClick="BBClytebox()" onMouseOver="helpline('lytebox')" class="postimage" alt="Lytebox"><img border="0" src="modules/Forums/bbcode_box/images/hide.gif" name="hide" type="image" onClick="BBChide()" onMouseOver="helpline('h')" class="postimage"alt="Image"><img border="0" src="modules/Forums/bbcode_box/images/flash.gif" name="flash" type="image" onClick="BBCflash()" onMouseOver="helpline('flash')" class="postimage" alt="Flash"><img border="0" src="modules/Forums/bbcode_box/images/video.gif" name="video" type="image" onClick="BBCvideo()" onMouseOver="helpline('video')" class="postimage" alt="Video"><img border="0" src="modules/Forums/bbcode_box/images/sound.gif" name="stream" type="image" onClick="BBCstream()" onMouseOver="helpline('stream')" class="postimage" alt="Stream"><img border="0" src="modules/Forums/bbcode_box/images/ram.gif" name="ram" type="image" onClick="BBCram()" onMouseOver="helpline('ram')" class="postimage" alt="Real Media"><img border="0" src="modules/Forums/bbcode_box/images/googlevid.gif" name="GVideo" type="image" onClick="BBCGVideo()" onMouseOver="helpline('googlevid')" class="postimage" alt="GoogleVid"><img border="0" src="modules/Forums/bbcode_box/images/youtube.gif" name="youtube" type="image" onClick="BBCyoutube()" onMouseOver="helpline('youtube')" class="postimage" alt="Youtube"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/list.gif" name="listdf" type="image" onClick="BBClist()" onMouseOver="helpline('list')" class="postimage" alt="List" /><img border="0" src="modules/Forums/bbcode_box/images/hr.gif" name="hr" type="image" onClick="BBChr()" onMouseOver="helpline('hr')" class="postimage" alt="H-Line"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/plain.gif" name="plain" type="image" onClick="BBCplain()" onMouseOver="helpline('plain')" class="postimage" alt="Remove BBcode">
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/privmsgs_body.tpl
+
+
+#
+#-----[ FIND (Change "YOUR_THEME" to the name of your theme ]---------
+#
+
+                <td bgcolor="{T_TD_COLOR2}"><img src="themes/YOUR_THEME/forums/images/spacer.gif" width="{ATTACHBOX_LIMIT_IMG_WIDTH}" height="8" alt="{ATTACH_LIMIT_PERCENT}" /></td>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+                 <td>
+                   <img src="{LCAP_IMG}" width="4" height="13" alt="" /><img src="{MAINBAR_IMG}" width="{ATTACHBOX_LIMIT_IMG_WIDTH}" height="13" alt="{ATTACH_LIMIT_PERCENT}" /><img src="{RCAP_IMG}" width="4" height="13" alt="" />
+                </td>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+                <td bgcolor="{T_TD_COLOR2}"><img src="themes/YOUR_THEME/forums/images/spacer.gif" width="{INBOX_LIMIT_IMG_WIDTH}" height="8" alt="{INBOX_LIMIT_PERCENT}" /></td>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+                 <td>
+                    <img src="{LCAP_IMG}" width="4" height="13" alt="" /><img src="{MAINBAR_IMG}" width="{INBOX_LIMIT_IMG_WIDTH}" height="13" alt="{INBOX_LIMIT_PERCENT}" /><img src="{RCAP_IMG}" width="4" height="13" alt="" />
+                 </td>
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+themes/YOUR_THEME/forums/profile_add_body.tpl
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+
+        <td class="row2" colspan="2"><span class="gensmall">{L_ITEMS_REQUIRED}</span></td>
+    </tr>
+    <tr>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+    <!-- BEGIN birthday_required -->
+	<tr>
+	  <td class="row1"><span class="gen">{L_BIRTHDAY}: *</span></td>
+	  <td class="row2">{BIRTHDAY_INTERFACE}</td>
+	</tr>
+	<!-- END birthday_required -->
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+    <!-- Start add - Gender MOD -->
+    <tr> 
+        <td class="row1"><span class="gen">{L_GENDER}:</span></td> 
+        <td class="row2"> 
+        <input type="radio" {LOCK_GENDER} name="gender" value="0" {GENDER_NO_SPECIFY_CHECKED}/> 
+        <span class="gen">{L_GENDER_NOT_SPECIFY}</span>&nbsp;&nbsp; 
+        <input type="radio" name="gender" value="1" {GENDER_MALE_CHECKED}/> 
+        <span class="gen">{L_GENDER_MALE}</span>&nbsp;&nbsp; 
+        <input type="radio" name="gender" value="2" {GENDER_FEMALE_CHECKED}/> 
+        <span class="gen">{L_GENDER_FEMALE}</span></td> 
+    </tr>
+    <!-- End add - Gender MOD -->
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+      <td class="row2" colspan="2"><span class="gensmall">{L_PROFILE_INFO_NOTICE}</span></td>
+    </tr>
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+      <td class="row2" colspan="2"><span class="gensmall">{L_ITEMS_REQUIRED}</span></td>
+    </tr>    
+    <tr>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+<!-- BEGIN xdata -->
+<!-- BEGIN switch_is_icq -->
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+	<tr>
+	  <td class="row1"><span class="gen">{L_FACEBOOK}:</span></td>
+	  <td class="row2">
+		<input type="text" class="post"style="width: 200px"  name="facebook" size="25" maxlength="255" value="{FACEBOOK}" />
+	  </td>
+	</tr>  
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+	  <td class="row2"><span class="gensmall">
+		<table><tr>
+			<td>{FLAG_SELECT}    </td>
+	  		<td><img src="modules/Forums/images/flags/{FLAG_START}" width="32" height="20" name="user_flag" /></td>
+		</tr></table>
+	  </span></td>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+	  <td class="row2">
+	  <span class="gensmall">
+		<table>
+		  <tr>
+		    <td>{FLAG_SELECT}&nbsp;</td>
+	  	    <td><img src="images/flags/{FLAG_START}" width="16" height="11" name="user_flag" /></td>
+		  </tr>
+		</table>
+	  </span>
+	  </td>
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+
+    <!-- BEGIN birthday_optional -->
+	<tr>
+	  <td class="row1"><span class="gen">{L_BIRTHDAY}:</span></td>
+	  <td class="row2">{BIRTHDAY_INTERFACE}</td>
+	</tr>
+	<!-- END birthday_optional -->
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+    <tr>
+      <td class="row1"><span class="gen">{L_ALWAYS_ALLOW_SMILIES}:</span></td>
+
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+	<!-- BEGIN birthday_optional -->
+	<tr>
+	  <td class="row1"><span class="gen">{L_BIRTHDAY}:</span></td>
+	  <td class="row2">{BIRTHDAY_INTERFACE}</td>
+	</tr>
+	<!-- END birthday_optional -->
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+
+themes/YOUR_THEME/forums/profile_view_body.tpl
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+
+		  <td valign="middle" align="right" nowrap="nowrap"><span class="gen">{L_PROFILE_VIEWS}: </span></td>
+		  <td width="100%"><strong><span class="gen">{PROFILE_VIEWS}</span></strong></td>
+		</tr>
+        <tr> 
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+          <td> <strong><span class="gen">{INTERESTS}</span></strong></td>
+        </tr>
+
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+
+<!--BEGIN Arcade 3.0.2--> 
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+        <tr> 
+		  <td valign="top" align="right" nowrap="nowrap"><span class="gen">{L_BIRTHDAY}:</span></td>
+		  <td> <b><span class="gen">{BIRTHDAY}</span></b></td>
+		</tr>
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+<!-- END Arcade 3.0.2 -->              
+        <tr>
+          <td valign="top" align="right" nowrap="nowrap"><span class="gen">{L_REPUTATION}:</span></td>
+          <td> <span class="gen">{REPUTATION}</span></td>
+        </tr> 
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+        {CASH}
+        <tr>
+          <td valign="top" align="right" nowrap="nowrap"><span class="gen">{L_REPUTATION}:</span></td>
+          <td> <span class="gen">{REPUTATION}</span></td>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+<!-- Start add - Gender MOD --> 
+        <tr> 
+	      <td valign="top" align="right" nowrap="nowrap"><span class="gen">{L_GENDER}:</span></td>
+	      <td> <b><span class="gen">{GENDER}</span></b></td>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+<!-- END switch_admin_notes -->		
+<!-- BEGIN xdata -->
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+<!-- END switch_admin_notes -->         
+<!-- End add - Gender MOD -->
+<!-- BEGIN xdata -->
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+####NOTE: In this line change find and change YOUR_THEME to the name of your theme ####
+
+
+
+<!-- BEGIN switch_upload_limits -->
+        <tr>
+            <td valign="top" align="right" nowrap="nowrap"><span class="gen">{L_UPLOAD_QUOTA}:</span></td>
+            <td>
+                <table width="175" cellspacing="1" cellpadding="2" border="0" class="bodyline">
+                <tr>
+                    <td colspan="3" width="100%" class="row2">
+                        <table cellspacing="0" cellpadding="1" border="0">
+                        <tr>
+                            <td bgcolor="{T_TD_COLOR2}"><img src="themes/YOUR_THEME/images/spacer.gif" width="{UPLOAD_LIMIT_IMG_WIDTH}" height="8" alt="{UPLOAD_LIMIT_PERCENT}" /></td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="33%" class="row1"><span class="gensmall">0%</span></td>
+                    <td width="34%" align="center" class="row1"><span class="gensmall">50%</span></td>
+                    <td width="33%" align="right" class="row1"><span class="gensmall">100%</span></td>
+                </tr>
+                </table>
+                <strong><span class="genmed">[{UPLOADED} / {QUOTA} / {PERCENT_FULL}]</span> </strong><br />
+                <span class="genmed"><a href="{U_UACP}" class="genmed">{L_UACP}</a></span></td>
+            </td>
+        </tr>
+        <!-- END switch_upload_limits --> 
+
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+<!-- BEGIN switch_upload_limits -->
+        <tr>
+            <td valign="top" align="right" nowrap="nowrap"><span class="gen">{L_UPLOAD_QUOTA}:</span></td>
+            <td>
+                <table width="175" cellspacing="1" cellpadding="2" border="0" class="bodyline">
+                <tr>
+                    <td colspan="3" width="100%" class="row2">
+                        <table cellspacing="0" cellpadding="1" border="0">
+                        <tr>
+                            <td>
+                               <img src="{LCAP_IMG}" width="4" height="13" alt="" /><img src="{MAINBAR_IMG}" width="{UPLOAD_LIMIT_IMG_WIDTH}" height="13" alt="{UPLOAD_LIMIT_PERCENT}" /><img src="{RCAP_IMG}" width="4" height="13" alt="" />
+                            </td>    
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="33%" class="row1"><span class="gensmall">0%</span></td>
+                    <td width="34%" align="center" class="row1"><span class="gensmall">50%</span></td>
+                    <td width="33%" align="right" class="row1"><span class="gensmall">100%</span></td>
+                </tr>
+                </table>
+                <strong><span class="genmed">[{UPLOADED} / {QUOTA} / {PERCENT_FULL}]</span> </strong><br />
+                <span class="genmed"><a href="{U_UACP}" class="genmed">{L_UACP}</a></span></td>
+            </td>
+        </tr>
+        <!-- END switch_upload_limits --> 
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+		<tr> 
+		  <td valign="middle" nowrap="nowrap" align="right"><span class="gen">{L_MYSPACE}:</span></td>
+		  <td class="row1" valign="middle"><span class="gen">{MYSPACE_IMG}</span></td>
+		</tr> 
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+		<tr> 
+		  <td valign="middle" nowrap="nowrap" align="right"><span class="gen">{L_FACEBOOK_PROFILE}:</span></td>
+		  <td class="row1" valign="middle"><span class="gen">{FACEBOOK_IMG}</span></td>
+		</tr> 
+
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+
+themes/YOUR_THEME/forums/viewforum_body.tpl
+
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+
+<!-- The javascript presents here comes from MyCalendar 2.2.6 from MojavLinux -->
+<script language="Javascript" type="text/javascript">
+<!--
+var agt = navigator.userAgent.toLowerCase();
+var originalFirstChild;
+
+function createTitle(which, string, x, y)
+{
+   // record the original first child (protection when deleting)
+   if (typeof(originalFirstChild) == 'undefined')
+   {
+      originalFirstChild = document.body.firstChild;
+   }
+
+   x = document.all ? (event.clientX + document.body.scrollLeft) : x;
+   y = document.all ? (event.clientY + document.body.scrollTop) : y;
+   element = document.createElement('div');
+   element.style.position = 'absolute';
+   element.style.zIndex = 1000;
+   element.style.visibility = 'hidden';
+   excessWidth = 0;
+   if (document.all)
+   {
+      excessWidth = 50;
+   }
+   excessHeight = 20;
+   element.innerHTML = '<div class="bodyline"><table width="300" cellspacing="0" cellpadding="0" border="0"><tr><td><table width="100%"><tr><td><span class="gen">' + string + '</span></td></tr></table></td></tr></table></div>';
+   renderedElement = document.body.insertBefore(element, document.body.firstChild);
+   renderedWidth = renderedElement.offsetWidth;
+   renderedHeight = renderedElement.offsetHeight;
+
+   // fix overflowing off the right side of the screen
+   overFlowX = x + renderedWidth + excessWidth - document.body.offsetWidth;
+   x = overFlowX > 0 ? x - overFlowX : x;
+
+   // fix overflowing off the bottom of the screen
+   overFlowY = y + renderedHeight + excessHeight - window.innerHeight - window.pageYOffset;
+   y = overFlowY > 0 ? y - overFlowY : y;
+
+   renderedElement.style.top = (y + 15) + 'px';
+   renderedElement.style.left = (x + 15) + 'px';
+
+   // windows versions of mozilla are like too fast here...we have to slow it down
+   if (agt.indexOf('gecko') != -1 && agt.indexOf('win') != -1)
+   {
+      setTimeout("renderedElement.style.visibility = 'visible'", 1);
+   }
+   else
+   {
+      renderedElement.style.visibility = 'visible';
+   }
+}
+
+function destroyTitle()
+{
+   // make sure we don't delete the actual page contents (javascript can get out of alignment)
+   if (document.body.firstChild != originalFirstChild)
+   {
+      document.body.removeChild(document.body.firstChild);
+   }
+}
+//-->
+</script>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+	<td class="row1" align="center" valign="middle" height="50"><img src="{catrow.forumrow.FORUM_FOLDER_IMG}" width="46" height="25" alt="{catrow.forumrow.L_FORUM_FOLDER_ALT}" title="{catrow.forumrow.L_FORUM_FOLDER_ALT}" /></td>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+	<td class="row1" align="center" valign="middle" height="50"><img src="{catrow.forumrow.FORUM_FOLDER_IMG}" alt="{catrow.forumrow.L_FORUM_FOLDER_ALT}" title="{catrow.forumrow.L_FORUM_FOLDER_ALT}" /></td>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+      <th colspan="2" align="center" height="25" class="thCornerL" nowrap="nowrap">&nbsp;{L_TOPICS}&nbsp;</th>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+      <th colspan="3" align="center" height="25" class="thCornerL" nowrap="nowrap">&nbsp;{L_TOPICS}&nbsp;</th>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+       <td class="catHead" colspan="6" height="28"><span class="cattitle">{topicrow.divider.L_DIV_HEADERS}</span></td>
+
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+
+       <td class="catHead" colspan="7" height="28"><span class="cattitle">{topicrow.divider.L_DIV_HEADERS}</span></td>
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+      <td class="row1" align="center" valign="middle" width="20"><img src="{topicrow.TOPIC_FOLDER_IMG}" alt="{topicrow.L_TOPIC_FOLDER_ALT}" title="{topicrow.L_TOPIC_FOLDER_ALT}" /></td>
+
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+
+
+      <td class="row1" align="center" valign="middle" width="20">{topicrow.ICON}</td>
+
+
+#
+#-----[ FIND AND DELETE ]------------------------------------------
+#
+
+onmouseover="createTitle(this, '{topicrow.FIRST_POST}', event.pageX, event.pageY);" onmouseout="destroyTitle();"
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+      <td class="row3" align="center" valign="middle" nowrap="nowrap"><span class="postdetails">{topicrow.FIRST_POST_TIME}<br />{topicrow.TOPIC_AUTHOR}</span></td>   
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+      <td class="row3" align="center" valign="middle"><span class="name">{topicrow.TOPIC_AUTHOR}</span></td>
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+      <td class="row1" colspan="6" height="30" align="center" valign="middle"><span class="gen">{L_NO_TOPICS}</span></td>
+
+
+#
+#-----[ INLINE FIND ]------------------------------------------
+#
+
+colspan="6"
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+colspan="7"
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+      <td class="catBottom" align="center" valign="middle" colspan="6" height="28"><span class="genmed">{L_DISPLAY_TOPICS}:&nbsp;{S_SELECT_TOPIC_DAYS}&nbsp; {S_DISPLAY_ORDER}
+
+
+#
+#-----[ INLINE FIND ]------------------------------------------
+#
+
+
+colspan="6"
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+colspan="7"
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+
+themes/YOUR_THEME/forums/viewtopic_attach_body.tpl
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+        <td colspan="2" align="center"><br /><img resizemod="on" onload="rmw_img_loaded(this)" src="{postrow.attach.cat_images.IMG_SRC}" alt="{postrow.attach.cat_images.DOWNLOAD_NAME}" border="0" /><br /><br /></td>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+        <td colspan="2" align="center"><br /><a href="{postrow.attach.cat_images.IMG_SRC}" rel="lytebox" title="{postrow.attach.cat_images.COMMENT}"><img src="{postrow.attach.cat_images.IMG_SRC}" alt="{postrow.attach.cat_images.DOWNLOAD_NAME}" border="0" /></a><br /><br /></td>
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+
+        <td colspan="2" align="center"><br /><a href="{postrow.attach.cat_thumb_images.IMG_SRC}" target="_blank"><img src="{postrow.attach.cat_thumb_images.IMG_THUMB_SRC}" alt="{postrow.attach.cat_thumb_images.DOWNLOAD_NAME}" border="0" /></a><br /><br /></td>
+
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+
+        <td colspan="2" align="center"><br /><a href="{postrow.attach.cat_thumb_images.IMG_SRC}" rel="lytebox" title="{postrow.attach.cat_thumb_images.COMMENT}"><img src="{postrow.attach.cat_thumb_images.IMG_THUMB_SRC}" alt="{postrow.attach.cat_thumb_images.DOWNLOAD_NAME}" border="0" /></a><br /><br /></td>
+
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+
+themes/YOUR_THEME/forums/viewtopic_body.tpl
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+<a target="_blank" href="{U_PRINTER_TOPIC}"><img src="{PRINTER_IMG}" border="0" alt="{L_PRINTER_TOPIC}" align="middle" /></a>
+
+#
+#-----[ AT THE END OF LINE ADD ]------------------------------------------
+#
+
+
+</span></td>
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+    <td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="{U_INDEX}" class="nav">{L_INDEX}</a> <!-- IF PARENT_FORUM --> -> <a class="nav" href="{U_VIEW_PARENT_FORUM}">{PARENT_FORUM_NAME}</a><!-- ENDIF --> 
+
+
+#
+#-----[ BEFORE, ADD ]------------------------------------------
+#
+
+
+<!-- BEGIN thanks_button -->
+&nbsp;&nbsp;<a href="{thanks_button.U_THANK_TOPIC}"><img src="{thanks_button.THANK_IMG}" border="0" alt="{thanks_button.L_THANK_TOPIC}" align="middle" /></a>
+<!-- END thanks_button -->
+</span></td>
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+        <td class="catHead" colspan="2" height="28"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align="left" width="50%"><span class="nav">&nbsp;{U_BOOKMARK}</span></td><td align="right"><span class="nav"><span class="nav"><a href="{U_VIEW_OLDER_TOPIC}" class="nav">{L_VIEW_PREVIOUS_TOPIC}</a> :: <a href="{U_VIEW_NEWER_TOPIC}" class="nav">{L_VIEW_NEXT_TOPIC}</a> &nbsp;</span></td></tr></table></td>
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+        <td class="catHead" colspan="2" height="28"><span class="nav"><a href="{U_VIEW_OLDER_TOPIC}" class="nav">{L_VIEW_PREVIOUS_TOPIC}</a> :: <a href="{U_VIEW_NEWER_TOPIC}" class="nav">{L_VIEW_NEXT_TOPIC}</a> &nbsp;</span></td>
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+
+        <br /><br />{postrow.POSTER_JOINED}<br />{postrow.POSTER_AGE}<br />{postrow.POSTER_POSTS}<br />{postrow.POSTER_FROM}<br />{postrow.POSTER_FROM_FLAG}<br />{postrow.CASH}<br />{postrow.REPUTATION}<br />{postrow.POSTER_ONLINE_STATUS}<!-- -->
+
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+
+        <br /><br />{postrow.POSTER_GENDER}<br />{postrow.POSTER_JOINED}<br />{postrow.POSTER_AGE}{postrow.POSTER_POSTS}<br />{postrow.POSTER_FROM}<br />{postrow.REPUTATION}<br />{postrow.POSTER_FROM_FLAG}<br />{postrow.POSTER_ONLINE_STATUS}<!-- -->
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+                <td valign="middle" nowrap="nowrap">{postrow.PROFILE_IMG} {postrow.PM_IMG} {postrow.EMAIL_IMG} {postrow.WWW_IMG} {postrow.AIM_IMG} {postrow.YIM_IMG} {postrow.MSN_IMG} {postrow.MYSPACE_IMG}<script language="JavaScript" type="text/javascript"><!-- 
+
+
+#
+#-----[ INLINE FIND ]------------------------------------------
+#
+
+
+{postrow.MSN_IMG}
+
+
+#
+#-----[ INLINE AFTER ADD ]------------------------------------------
+#
+
+
+{postrow.FACEBOOK_IMG}
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+        <td class="row3" colspan="2"><span class="postdetails">{postrow.move_message.MOVE_MESSAGE}</span></td>
+</tr>
+<!-- END move_message -->
+
+
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+
+	<!-- BEGIN thanks -->
+	<tr>
+		<td colspan="2" class="row2">
+			<table class="forumline" cellspacing="1" cellpadding="3" border="0" width="100%">
+				<tr>
+					<th class="thLeft">{postrow.thanks.THANKFUL}</th>
+				</tr>
+				<tr>
+					<td class="row2" valign="top" align="left">
+						<span id="hide_thank" style="display: block;" class="gensmall">
+						<a href="javascript: void(0);" onclick="document.all.show_thank.style.display = 'block';document.all.hide_thank.style.display = 'none'">{postrow.thanks.THANKS_TOTAL}</a> {postrow.thanks.THANKED}			
+						</span>
+						<span id="show_thank" style="display: none;" class="gensmall">
+							{postrow.thanks.THANKS}&nbsp;
+							<br /><br /><div align="right"><a href="javascript: void(0);" onClick="document.all.show_thank.style.display = 'none';document.all.hide_thank.style.display = 'block'">[ {postrow.thanks.HIDE} ]</a></div>
+						</span>
+					</td>	
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<!-- END thanks -->
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+    <!-- END switch_quick_reply -->
+	&nbsp;&nbsp;<a target="_blank" href="{U_PRINTER_TOPIC}"><img src="{PRINTER_IMG}" border="0" alt="{L_PRINTER_TOPIC}" align="middle" /></a>
+
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+
+<!-- BEGIN thanks_button -->
+&nbsp;&nbsp;<a href="{thanks_button.U_THANK_TOPIC}"><img src="{thanks_button.THANK_IMG}" border="0" alt="{thanks_button.L_THANK_TOPIC}" align="middle" /></a>
+<!-- END thanks_button -->
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+    <td align="right" valign="top" nowrap="nowrap">{JUMPBOX}<span class="gensmall">{S_AUTH_LIST}</span></td>
+  </tr>
+</table>
+
+
+#
+#-----[ AFTER, ADD ]------------------------------------------
+#
+
+
+{RELATED_TOPICS}
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+
+themes/YOUR_THEME/forums/viewtopic_quickreply.tpl
+
+
+
+#
+#-----[ FIND ]------------------------------------------
+#
+
+
+
+                            <img border="0" src="modules/Forums/bbcode_box/images/code.gif" name="code" type="image" onClick="BBCcode()" onMouseOver="helpline('code')" class="postimage" alt="Code"><img border="0" src="modules/Forums/bbcode_box/images/php.gif" name="php" type="image" onClick="BBCphp()" onMouseOver="helpline('php')" class="postimage" alt="Php"><img border="0" src="modules/Forums/bbcode_box/images/quote.gif" name="quote" type="image" onClick="BBCquote()" onMouseOver="helpline('quote')" class="postimage" alt="Quote"><img border="0" src="modules/Forums/bbcode_box/images/spoil.gif" class="postimage" name="spoil" type="image" onClick="BBCspoil()" onMouseOver="helpline('spoil')" alt="" /><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/url.gif" name="url" type="image" onClick="BBCurl()" onMouseOver="helpline('url')" class="postimage" alt="URL"><img border="0" src="modules/Forums/bbcode_box/images/email.gif" name="email" type="image" onClick="BBCmail()" onMouseOver="helpline('mail')" class="postimage" alt="Email"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="20" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/img.gif" name="img" type="image" onClick="BBCimg()" onMouseOver="helpline('img')" class="postimage" alt="Image"><img border="0" src="modules/Forums/bbcode_box/images/flash.gif" name="flash" type="image" onClick="BBCflash()" onMouseOver="helpline('flash')" class="postimage" alt="Flash"><img border="0" src="modules/Forums/bbcode_box/images/video.gif" name="video" type="image" onClick="BBCvideo()" onMouseOver="helpline('video')" class="postimage" alt="Video"><img border="0" src="modules/Forums/bbcode_box/images/sound.gif" name="stream" type="image" onClick="BBCstream()" onMouseOver="helpline('stream')" class="postimage" alt="Stream"><img border="0" src="modules/Forums/bbcode_box/images/ram.gif" name="ram" type="image" onClick="BBCram()" onMouseOver="helpline('ram')" class="postimage" alt="Real Media"><img border="0" src="modules/Forums/bbcode_box/images/googlevid.gif" name="GVideo" type="image" onClick="BBCGVideo()" onMouseOver="helpline('googlevid')" class="postimage" alt="GoogleVid"><img border="0" src="modules/Forums/bbcode_box/images/youtube.gif" name="youtube" type="image" onClick="BBCyoutube()" onMouseOver="helpline('youtube')" class="postimage" alt="Youtube"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/list.gif" name="listdf" type="image" onClick="BBClist()" onMouseOver="helpline('list')" class="postimage" alt="List" /><img border="0" src="modules/Forums/bbcode_box/images/hr.gif" name="hr" type="image" onClick="BBChr()" onMouseOver="helpline('hr')" class="postimage" alt="H-Line"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/plain.gif" name="plain" type="image" onClick="BBCplain()" onMouseOver="helpline('plain')" class="postimage" alt="Remove BBcode">
+
+
+
+#
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+
+
+                            <img border="0" src="modules/Forums/bbcode_box/images/code.gif" name="code" type="image" onClick="BBCcode()" onMouseOver="helpline('code')" class="postimage" alt="Code"><img border="0" src="modules/Forums/bbcode_box/images/php.gif" name="php" type="image" onClick="BBCphp()" onMouseOver="helpline('php')" class="postimage" alt="Php"><img border="0" src="modules/Forums/bbcode_box/images/quote.gif" name="quote" type="image" onClick="BBCquote()" onMouseOver="helpline('quote')" class="postimage" alt="Quote"><img border="0" src="modules/Forums/bbcode_box/images/spoil.gif" class="postimage" name="spoil" type="image" onClick="BBCspoil()" onMouseOver="helpline('spoil')" alt="" /><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/url.gif" name="url" type="image" onClick="BBCurl()" onMouseOver="helpline('url')" class="postimage" alt="URL"><img border="0" src="modules/Forums/bbcode_box/images/email.gif" name="email" type="image" onClick="BBCmail()" onMouseOver="helpline('mail')" class="postimage" alt="Email"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="20" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/img.gif" name="img" type="image" onClick="BBCimg()" onMouseOver="helpline('img')" class="postimage" alt="Image"><img border="0" src="modules/Forums/bbcode_box/images/lytebox.gif" name="img" type="image" onClick="BBClytebox()" onMouseOver="helpline('lytebox')" class="postimage" alt="Lytebox"><img border="0" src="modules/Forums/bbcode_box/images/hide.gif" name="hide" type="image" onClick="BBChide()" onMouseOver="helpline('h')" class="postimage"alt="Image"><img border="0" src="modules/Forums/bbcode_box/images/flash.gif" name="flash" type="image" onClick="BBCflash()" onMouseOver="helpline('flash')" class="postimage" alt="Flash"><img border="0" src="modules/Forums/bbcode_box/images/video.gif" name="video" type="image" onClick="BBCvideo()" onMouseOver="helpline('video')" class="postimage" alt="Video"><img border="0" src="modules/Forums/bbcode_box/images/sound.gif" name="stream" type="image" onClick="BBCstream()" onMouseOver="helpline('stream')" class="postimage" alt="Stream"><img border="0" src="modules/Forums/bbcode_box/images/ram.gif" name="ram" type="image" onClick="BBCram()" onMouseOver="helpline('ram')" class="postimage" alt="Real Media"><img border="0" src="modules/Forums/bbcode_box/images/googlevid.gif" name="GVideo" type="image" onClick="BBCGVideo()" onMouseOver="helpline('googlevid')" class="postimage" alt="GoogleVid"><img border="0" src="modules/Forums/bbcode_box/images/youtube.gif" name="youtube" type="image" onClick="BBCyoutube()" onMouseOver="helpline('youtube')" class="postimage" alt="Youtube"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/list.gif" name="listdf" type="image" onClick="BBClist()" onMouseOver="helpline('list')" class="postimage" alt="List" /><img border="0" src="modules/Forums/bbcode_box/images/hr.gif" name="hr" type="image" onClick="BBChr()" onMouseOver="helpline('hr')" class="postimage" alt="H-Line"><img style="padding-left: 5px; padding-right: 5px;" src="modules/Forums/bbcode_box/images/blackdot.gif" width="1" height="100%" border="0" alt=""><img border="0" src="modules/Forums/bbcode_box/images/plain.gif" name="plain" type="image" onClick="BBCplain()" onMouseOver="helpline('plain')" class="postimage" alt="Remove BBcode">
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#
+
+
+#
+#-----[ OPEN ]------------------------------------------
+#
+
+
+themes/YOUR_THEME/style/style.css
+
+
+##NOTE: YOU WILL NEED TO ADJUST THE background-color: to match your theme
+
+#
+#-----[ AT THE VERY BOTTOM ADD ]------------------------------------------
+#
+
+
+/*START Inline Banner Ad*/
+td.inlineadtitle {
+  background-color:#e0e0e0; border: {T_TH_COLOR3}; border-style: solid; border-width: 0px;
+}
+td.inlinead {
+  background-color:e0e0e0; border: {T_TH_COLOR3}; border-style: solid; border-width: 1px; text-align: center;
+}
+/*ENDD Inline Banner Ad*/
+
+
+#
+#-----[ SAVE/CLOSE ]------------------------------------------
+#

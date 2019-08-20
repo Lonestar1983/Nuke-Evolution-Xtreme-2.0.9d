@@ -1,0 +1,76 @@
+Fancy Newsletter
+Version:                2.5.1
+Author:                 (See included Fancy Newsletter credit file)
+Website:                sourceforge.net/projects/fancynl/
+GPL:                    Yes
+Notes:                  Allows admins to make nice looking newsletters
+---------------------------------------------------------------
+NSN News
+Version:                770 1.1.6 pl2
+Author:                 NukeScripts Network
+Website:                www.nukescripts.net
+GPL:                    No (See included NSN News license file)
+Notes:                  None
+---------------------------------------------------------------
+NSN Supporters
+Version:                75-77 1.3.0
+Author:                 NukeScripts Network
+Website:                www.nukescripts.net
+GPL:                    No (See included NSN Supporters license file)
+Notes:                  Allows the users and admins to add supporters to their site
+---------------------------------------------------------------
+Legal Docs
+Version:                1.0.0
+Author:                 DJ Maze
+Website:                www.cpgnuke.com
+GPL:                    Yes
+Notes:                  Module to have your Website documents in one place. You have a custom About Us page, a site Privacy Statement, and a site Disclaimer statement. The only configuration is typing in what you want the About Us statement to say
+---------------------------------------------------------------
+MetOpen Home Page
+Version:                2.0.1
+Author:                 Heshy Shayovitz
+Website:                metopen.com
+GPL:                    Yes
+Notes:                  A supplementary add-on that allows you to change the way news looks
+---------------------------------------------------------------
+phpBB Groups Module
+Version:                1.0.0
+Author:                 Quake
+Website:                www.nuke-evolution.com
+GPL:                    Yes
+Notes:                  Made an own module out of groupcp.php from the Forums module
+---------------------------------------------------------------
+Topics
+Version:                1.0.0
+Author:                 Quake
+Website:                www.nukefixes.com
+GPL:                    Yes
+Notes:                  Made for PHP-Nuke Patched, optimized topics module
+---------------------------------------------------------------
+Credit Module
+Version:                1.0.0
+Author:                 JeFFb68CAM
+Website:                www.Evo-Mods.com
+GPL:                    Yes
+Notes:                  Created a credits module that would read all the credits from txt file (this one.)
+---------------------------------------------------------------
+phpBB Profile Module
+Version:                1.0.0
+Author:                 JeFFb68CAM
+Website:                www.Evo-Mods.com
+GPL:                    Yes
+Notes:                  Made an own module out of profile.php from the Forums module
+---------------------------------------------------------------
+Spambot Killer
+Version:                2.0.0
+Author:                 N/A
+Website:                N/A
+GPL:                    Yes
+Notes:                  Floods spambots with useless emails
+---------------------------------------------------------------
+Site Map
+Version:                4.0.0
+Author:                 www.techg3n.net
+Website:                techg3n.net
+GPL:                    Yes
+Notes:                  Enhanced Site Map module generates a list with useful links from your website. Also generates an XML sitemap for search engines

@@ -1,0 +1,7 @@
+Effectica
+Website:                effectica.com
+Notes:                  Created and donated the theme "chromo" for Nuke-Evolution.
+---------------------------------------------------------------
+SlashDot
+Website:                sddesign.biz
+Notes:                  Created and donated the theme "3com" for Nuke-Evolution.

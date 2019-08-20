@@ -1,0 +1,5 @@
+This conversion is for themes from Evolution-Xtreme 2.0.7 -to- Evolution-Xtreme 2.0 Edition.
+
+** You cannot use this to convert from Evolution 2.0.7 to Evolution Xtreme 2.0 **
+
+If you have any questions please post in the forums at http://evolution-xtreme.com

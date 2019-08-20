@@ -1,0 +1,14 @@
+PHP-Nuke
+Version:                7.6
+Author:                 Francisco Burzi
+Website:                phpnuke.org
+GPL:                    Yes
+Notes:                  None
+---------------------------------------------------------------
+PHP-Nuke Patched 
+Version:                3.0b & 3.1
+Author:                 chatserv, Quake, & Evaders99
+Website:                nukefixes.com
+GPL:                    Yes
+Notes:                  http://www.nukefixes.com/forum-44.html
+---------------------------------------------------------------

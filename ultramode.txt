@@ -1,0 +1,25 @@
+General purpose self-explanatory file with news headlines
+%%
+PHP Dir Submit Login SQL Injection Vulnerability
+/modules.php?name=News&file=article&sid=4
+Saturday, May 30
+nextgen
+Nuke-Evolution
+1
+
+%%
+Testing Calendar
+/modules.php?name=News&file=article&sid=3
+Friday, May 29
+killigan
+Nuke-Evolution
+0
+
+%%
+TEST
+/modules.php?name=News&file=article&sid=2
+Wednesday, May 27
+killigan
+Nuke-Evolution
+1
+

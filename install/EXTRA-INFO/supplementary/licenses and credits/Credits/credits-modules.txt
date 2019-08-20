@@ -1,0 +1,35 @@
+My Uploads
+Version:                4.4.0 Unregistered
+Author:                 gnaunited < alex@gnaunited.com >
+Website:                www.gnaunited.com
+GPL:                    Yes
+Notes:                  Allows your users to upload files to your host for personal use
+---------------------------------------------------------------
+Shout Box
+Version:                8.5.2
+Author:                 SuperCat < webmaster@ourscripts.net >
+Website:                www.ourscripts.net
+Modified:               Rodmar www.evolved-systems.net
+GPL:                    Yes
+Notes:                  A feature-rich shout box. Compatability for browsers including Internet Explorer, Firefox, Mozilla, Netscape, Opera and Konquerer
+---------------------------------------------------------------
+NSN Mailing List
+Version:                75-77 1.1.0
+Author:                 NukeScripts Network
+Website:                www.nukescripts.net
+GPL:                    No (See included NSN Mailing List license file)
+Notes:                  Allows the users to subscribe to mailing lists
+---------------------------------------------------------------
+CalendarMx
+Version:                1.4.b
+Author:                 pragmamx.org & shiba-design.de
+Website:                www.pragmamx.org & vkp.shiba.de
+GPL:                    Yes
+Notes:                  Feature-rich calendar module
+---------------------------------------------------------------
+NSN NukeProject
+Version:                2.0.0
+Author:                 NukeScripts Network
+Website:                www.nukescripts.net
+GPL:                    No (See included NSN NukeProject license file)
+Notes:                  An all in one module for advanced Project Management

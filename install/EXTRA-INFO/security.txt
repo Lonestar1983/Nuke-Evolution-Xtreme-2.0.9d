@@ -1,0 +1,96 @@
+/*****[NUKE-EVOLUTION BASIC: SECURITY]***********************************
+ This file contains IMPORTANT NOTES on SECURITY
+ ************************************************************************\
+
+
+ ========================================================================
+ Nuke-Evolution Basic: Enhanced PHP-Nuke Web Portal System RELEASE 2.0.7
+ ========================================================================
+
+ Passwords
+ ---------
+ Below are some tips to help you make your passwords more secure
+ 
+ Your passwords should be no less than 5 characters if possible.
+ Your passwords should contain an uppercase character.
+ Your passwords should contain a lowercase character.
+ Your passwords should contain a number.
+ Your passwords should contain an alphanumeric if possible (i.e. *, #, $, !, etc)
+ 
+ You should have different passwords for each of the following.  They should
+ NEVER be the same.
+ 
+ Admin
+ DB
+ Personal site user account
+ FTP and/or site management
+ User account on other sites
+ 
+ Using the same password on other sites should NEVER be done.  The reason is now
+ that site has your username and password.  Though the password is encrypted it
+ can be decrypted with some work.  So now they have that password and guess what
+ a hacker might do with it!
+ 
+ Remember that different may not mean a whole new password but maybe a couple 
+ of changes to it.
+ 
+ For example Mypass#1 is a good password you can change it a number of different
+ ways.
+ MYPasS#1
+ MyP8ss#1!
+ myPASS#!
+ MyPa$$#1
+ 
+ You should change at least 3 of the characters though.
+
+ Sentinel
+ --------
+ Do NOT turn off any of the blockers.  You can turn them down but you should
+ never turn one all the way off!
+ 
+ You should leave IP Tracking on but you can turn the length up or down
+ 
+ For more information of features see Raven's site.
+ http://ravenphpscripts.com/nukesentinelmanual-admini4.html
+ 
+ Admin IP Lock
+ -------------
+ You should activate and use this mod if possible.  It locks the admin areas
+ so only users with the correct IP address can access them.
+ 
+ Please see help\features\Admin IP Lock.pdf for more information.
+ 
+ User IP Lock
+ ------------
+ This is an optional security feature.  It locks user accounts 
+ so only people with the correct IPs can login to them
+ 
+ Please see help\features\User IP Lock.pdf for more information.
+ 
+ Other
+ -----
+ If you install mods, blocks, or modules outside of the Evo package
+ please make sure you are using the most current versions.  You should
+ also check the author's site often for fixes or updates.
+ 
+ Updates
+ -------
+ Please watch the Evo site for new security changes & fixes.  Also new
+ versions when they are released.
+ 
+ We will also send out important info through our news letters.  So please
+ subscribe to them.
+ 
+ This thread will also contain important changes to this document
+ http://www.nuke-evolution.com/modules.php?name=Forums&file=viewtopic&t=1885
+ 
+ Finally please watch the official fix forum for fixes and improvements
+ http://www.nuke-evolution.com/modules.php?name=Forums&file=viewforum&f=27
+ 
+                     --------------------------
+ 
+ Thanks for using our enhanced PHP-Nuke Web Portal System and we hope you
+ enjoy it :)
+
+ Nuke-Evolution Team
+ http://www.nuke-evolution.com

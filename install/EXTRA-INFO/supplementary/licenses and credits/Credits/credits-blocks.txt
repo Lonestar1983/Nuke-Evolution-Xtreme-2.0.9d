@@ -1,0 +1,14 @@
+JAG Whos Been
+Version:                1.0.76
+Author:                 Dashe & BlueLion
+Website:                phpnuke-nederland.com
+GPL:                    Yes
+Notes:                  Shows who was on your site and when
+---------------------------------------------------------------
+Sommaire Paramétrable
+Version:                2.1.2 Beta 8
+Author:                 marcoledingue
+Website:                marcoledingue.free.fr
+GPL:                    Yes
+Notes:                  A fully customizable block
+---------------------------------------------------------------

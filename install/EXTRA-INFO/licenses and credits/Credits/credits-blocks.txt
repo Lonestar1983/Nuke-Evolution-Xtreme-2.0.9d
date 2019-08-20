@@ -1,0 +1,20 @@
+Administration
+Version:                1.0.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    Yes
+Notes:                  A better administration block
+---------------------------------------------------------------
+Google
+Version:                1.5.0
+Author:                 Rodmar
+Website:                www.evolved-systems.net
+GPL:                    Yes
+Notes:                  Let's you search on the internet as well as on your own domain
+---------------------------------------------------------------
+Enhanced Forums Block
+Version:                3.0
+Author:                 JeFFb68CAM
+Website:                www.Evo-Mods.com
+GPL:                    Yes
+Notes:                  This is an enhanced forums block that includes a cache for optimum performance

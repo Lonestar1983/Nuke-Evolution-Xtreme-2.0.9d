@@ -1,0 +1,55 @@
+/*****[CONTENT]**********************************************************
+ Nuke-Evolution Xtreme Content: This document shows an overview about the
+ base of the used Content Management System as well as base modifications
+ and other add-ons.
+ ************************************************************************/
+
+
+Nuke-Evolution Xtreme contains the following elements:
+
+- PHP-Nuke 7.6 Modified
+    * http://www.phpnuke.org
+
+- Nuke Patched 3.1
+    * http://www.nukeresouces.com
+    * http://www.nukefixes.com
+
+- Sitewide Caching System with Admin Panel
+
+- Automatic 'Language selection' on first visit
+
+- Easy to use Advertising system (from PHP-Nuke 7.8)
+
+- Custom Forum Admin Control Panel Template
+
+- phpBB 2.0.22 + mods and hacks
+    * http://www.phpbb.com
+    * http://www.phpbbhacks.com
+    * http://www.platinummods.com
+    * http://www.evolved-systems.net
+    * http://www.NittoRevolution.net
+    * http://www.Nuke-Evolution.com
+    * http://www.Evo-Mods.com
+    * http://www.darkforgegfx.com
+
+- NukeScripts Network NukeSentinel, Supporters and News modules
+  http://www.nukescripts.net
+
+- CNB Your Account with more functions and control (heavily modified)
+  This one is also merged with the Forums profile.
+  http://www.phpnuke.org.br
+
+- phpBB User Groups Integration
+  This mod will get it to recognize the user groups that
+  are created in your phpBB Forums in the following areas:
+    * Blocks: Set blocks to be visible only to a phpBB User Group
+    * Messages: Set messages to be visible only to a phpBB User Group
+    * Modules: Set modules to be visible only to a phpBB User Group
+    * Downloads: Set downloads to be visible only to a phpBB User Group
+    * Themes: Set themes to be visible only to a phpBB User Group
+  These usergroups are integrated trough the site
+
+- Documentation and setup instructions
+
+- Many more mods, tweaks and security fixes/improvements: 
+  See features.txt & licenses and credits

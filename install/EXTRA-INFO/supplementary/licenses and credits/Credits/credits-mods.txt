@@ -1,0 +1,27 @@
+Nuke Arcade
+Version:                3.0.2
+Author:                 Giefca < giefca@hotmail.com >
+Website:                www.gf-phpbb.com
+GPL:                    Yes
+Notes:                  Adds an arcade to your forums with high scores tables, categories, comments and favorite games
+---------------------------------------------------------------
+ForumNews Advance
+Version:                3.0.0
+Author:                 Mighty_Y
+Website:                code-area51.com
+GPL:                    No (See the included ForumNews Advanced license)
+Notes:                  Allows users to create News from forum posts
+---------------------------------------------------------------
+FNA Select Expand BBCode Addon
+Version:                1.0.0
+Author:                 PortedMods.com
+Website:                PortedMods.com
+GPL:                    Yes
+Notes:                  Integrates Select Expand BBCodes with ForumNews Advance
+---------------------------------------------------------------
+RSS Improvements
+Version:                2.0.0
+Author:                 Rodmar & Quake
+Website:                www.evolved-systems.net / www.Nuke-Evolution.com
+GPL:                    Yes
+Notes:                  RSS improvements for Nuke-Evolution based upon Backend Files and ForumNews backend files

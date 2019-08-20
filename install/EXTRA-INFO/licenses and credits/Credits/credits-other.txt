@@ -1,0 +1,140 @@
+DB Free Resource
+Version:                1.0.0
+Author:                 Technocrat
+Website:                platinummods.com
+GPL:                    N/A
+Notes:                  When a query is run the results stay in memory until it’s released.  With most SQL systems this is done 1 of 2 ways.  The first is done by the server when the connection is closed or a timeout has occurred.  Generally this is referred to as a garbage collector.  The second can be done by the programmer, by calling a function to handle the release. In an attempt to be more OOP standard compliant with this distro we are trying to handle these types of situations ourselves without using the garbage collector.
+---------------------------------------------------------------
+DB Connector
+Version:                1.0.0
+Author:                 EvolutionCrazy
+Website:                N/A
+GPL:                    N/A
+Notes:                  Attempts to make Nuke more OOP standard complaint by forcing the DB connector to close http://www.nukefixes.com/ftopic-1397.html
+---------------------------------------------------------------
+Queries Count
+Version:                2.0.0
+Author:                 Technocrat, Quake
+Website:                platinummods.com, www.nuke-evolution.com
+GPL:                    N/A
+Notes:                  To show the number of queries a page uses go to admin panel and set it. This will then show a query count in the foot of each page. For some reason every class had a counter variable but it wasn’t used for anything.
+---------------------------------------------------------------
+Admin Field Size
+Version:                1.0.0
+Author:                 Technocrat
+Website:                platinummods.com
+GPL:                    N/A
+Notes:                  The password and username field size for creating the admin account is set to odd size. So I set them to be a the standard 20
+---------------------------------------------------------------
+Need To Delete
+Version:                1.0.0
+Author:                 Technocrat
+Website:                platinummods.com
+GPL:                    N/A
+Notes:                  Forces the site admin to delete install.php and the install folder
+---------------------------------------------------------------
+W3C HTML
+Version:                4.01
+Author:                 The Nuke-Evolution Team
+Website:                Nuke-Evolution.com
+GPL:                    N/A
+Notes:                  Making everything 4.01 complaint
+---------------------------------------------------------------
+News Fix
+Version:                1.0.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    N/A
+Notes:                  Put the current news articles in the news admin area
+---------------------------------------------------------------
+YA Forum Sig
+Version:                1.0.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    N/A
+Notes:                  Change the Your Account signature area to go to the forum sig
+---------------------------------------------------------------
+Date Fix
+Version:                1.0.0
+Author:                 Manuel
+Website:                N/A
+GPL:                    N/A
+Notes:                  Cleans up the date code. http://www.nukefixes.com/ftopicp-5353.html#5353
+---------------------------------------------------------------
+Review Background Color Fix
+Version:                1.0.0
+Author:                 Evaders99
+Website:                N/A
+GPL:                    N/A
+Notes:                  Fixes the hard coded background color in reviews. http://www.nukefixes.com/modules.php?name=Forums&file=viewtopic&t=1401
+---------------------------------------------------------------
+URL Check
+Version:                1.0.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    Yes
+Notes:                  Checks to make sure that the URL is valid
+---------------------------------------------------------------
+Theme Simplifications
+Version:                1.0.0
+Author:                 Rodmar
+Website:                www.evolved-systems.net
+GPL:                    Yes
+Notes:                  It simplifies the theme edits regarding the Forum Top Navigation Links and makes all URL's, image paths and language definition variables
+---------------------------------------------------------------
+Admin Password Confirm
+Version:                1.0.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    Yes
+Notes:                  Forces password confirmation when making the admin
+---------------------------------------------------------------
+Cookie Checker
+Version:                1.0.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    Yes
+Notes:                  Checks the forum cookie settings
+---------------------------------------------------------------
+4nWhoIsOnline
+Version:                0.9.1
+Author:                 Jack Kozbial
+Website:                www.internetintl.com
+GPL:                    Yes
+Notes:                  This administrator add-on/module shows the current visitors on your site with resolved DNS lookup and the ability to manage the users directly
+---------------------------------------------------------------
+Extended Surveys Admin Interface
+Version:                2.0.0
+Author:                 Quake
+Website:                www.nuke-evolution.com
+GPL:                    Yes
+Notes:                  Extended administration for Surveys module. Improved look & feel, added some new options and optimized the code.
+---------------------------------------------------------------
+Database Driven TOS for CNBYA (Your_Account)
+Version:                1.0.0
+Author:                 JeFFb68CAM
+Website:                www.Evo-Mods.com
+GPL:                    Yes
+Notes:                  Allows admin to edit the TOS from the CNBYA admin panel
+---------------------------------------------------------------
+PHP Input Filter
+Version:                1.2.2
+Author:                 Daniel Morris
+Website:                www.cyberai.com/inputfilter
+GPL:                    Yes
+Notes:                  Filters out bad HTML tags
+---------------------------------------------------------------
+Admin IP Lock
+Version:                2.1.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    Yes
+Notes:                  Allows admins to lock the admin file by IP address
+---------------------------------------------------------------
+User IP Lock
+Version:                2.1.0
+Author:                 Technocrat
+Website:                www.platinummods.com
+GPL:                    Yes
+Notes:                  Allows admins to lock certain user accounts by IP address
+---------------------------------------------------------------

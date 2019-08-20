@@ -1,0 +1,23 @@
+AUTHOR:         Rob Bergman
+SPEUDO:         Rob
+MAIL:           rob@dutchies.be
+WEBSITE:        www.dutchies.be
+REASON:         Original author of the first versions of Fancy NewsLetter
+
+AUTHOR:         Cyril
+SPEUDO:         Cyril
+MAIL:           webmaster@nukescripts-francais.com
+WEBSITE:        www.nukescripts-francais.com
+REASON:         Traduction of previous versions for the french market
+
+AUTHOR:         N/A
+SPEUDO:         LordSpartacus
+MAIL:           N/A
+WEBSITE:        N/A
+REASON:         Testing & TinyMCE configuration in PHPNuke 7.7
+
+AUTHOR:         Mario
+SPEUDO:         Airz
+MAIL:           subpilot@email.it
+WEBSITE:        www.nukeplatinum.it
+REASON:         Testing configuration in PHP-Nuke Platinum
